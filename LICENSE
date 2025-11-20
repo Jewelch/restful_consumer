@@ -1,0 +1,11 @@
+PROPRIETARY LICENSE
+
+Copyright (c) 2025 Jewel CHERIAA
+
+THIRD-PARTY DEPENDENCIES:
+This Software includes the following open-source dependencies:
+- equatable (MIT License)
+- dio (MIT License) 
+- dio_logger_plus (MIT License)
+
+The licenses of these dependencies remain in effect for their respective code.

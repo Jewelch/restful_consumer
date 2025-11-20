@@ -1,0 +1,38 @@
+{
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "dart.lineLength": 100,
+  "dart.maxLogLineLength": 10000,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "quickfix.add.required": "explicit",
+    "quickfix.add.required.multi": "explicit",
+    "quickfix.add.const": "explicit",
+    "quickfix.add.const.multi": "explicit",
+    "quickfix.create.constructorForFinalFields": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "dart.showInspectorNotificationsForWidgetErrors": false,
+  "dart.enableCompletionCommitCharacters": false,
+  "dart.debugExternalPackageLibraries": true,
+  "dart.debugSdkLibraries": false,
+  "dart.warnWhenEditingFilesOutsideWorkspace": false,
+  "dart.showTodos": false,
+  "dart.showDebuggerNumbersAsHex": true,
+  "dartImport.fixOnSave": true,
+  "editor.minimap.enabled": false,
+  "editor.accessibilitySupport": "off",
+  "explorer.compactFolders": false,
+  "errorLens.excludeBySource": [
+    "dart(depend_on_referenced_packages)",
+    "dart(curly_braces_in_flow_control_structures)",
+    "dart(argument_type_not_assignable)"
+  ],
+  "files.associations": {
+    "*.arb": "json"
+  },
+  "[json]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
