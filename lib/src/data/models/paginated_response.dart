@@ -1,5 +1,5 @@
-import '../../src/extensions/external/safe_types.dart';
-import '../protocol/modeling_protocol.dart';
+import '../../extensions/external/safe_types.dart';
+import '../definition/model.dart';
 
 class PaginatedResponse<T extends ModelingProtocol> {
   final List<T> content;

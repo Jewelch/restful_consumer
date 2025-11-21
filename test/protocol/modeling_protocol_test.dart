@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:restful_consumer/src/protocol/modeling_protocol.dart';
+import 'package:restful_consumer/src/data/definition/model.dart';
 
 // Test implementation of ModelingProtocol
 class TestModel extends ModelingProtocol {

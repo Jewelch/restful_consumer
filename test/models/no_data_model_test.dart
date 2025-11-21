@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:restful_consumer/src/models/no_data_model.dart';
+import 'package:restful_consumer/src/data/models/no_data_model.dart';
 
 void main() {
   group('NoDataModel', () {

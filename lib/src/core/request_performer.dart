@@ -2,8 +2,8 @@ import 'package:dio/dio.dart' hide ResponseDecoder;
 import 'package:dio_logger_plus/dio_logger_plus.dart';
 import 'package:flutter/foundation.dart';
 
+import '../data/definition/model.dart';
 import '../extensions/internal/iterable_ext.dart';
-import '../protocol/modeling_protocol.dart';
 import '../utils/index.dart';
 import 'errors/exceptions.dart';
 import 'response_decoder.dart';

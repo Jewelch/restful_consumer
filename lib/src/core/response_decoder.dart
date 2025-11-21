@@ -1,6 +1,6 @@
 import '../../restful_consumer.dart' show ModelingProtocol, Response;
-import '../models/no_data_model.dart';
-import '../models/paginated_response.dart';
+import '../data/models/no_data_model.dart';
+import '../data/models/paginated_response.dart';
 import '../utils/either.dart';
 import '../utils/networking_utilities.dart';
 import 'errors/exceptions.dart';

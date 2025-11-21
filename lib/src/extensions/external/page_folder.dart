@@ -1,5 +1,5 @@
-import '../../models/paginated_response.dart';
-import '../../protocol/modeling_protocol.dart';
+import '../../data/definition/model.dart';
+import '../../data/models/paginated_response.dart';
 import '../../utils/either.dart';
 
 extension PaginatedResponseFutureExtension<M extends ModelingProtocol>

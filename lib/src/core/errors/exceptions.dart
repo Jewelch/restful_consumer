@@ -42,3 +42,5 @@ class DioRequestException extends RestfulConsumerException {
         message: 'An error has Occured during Dio request process',
       );
 }
+
+class CacheException implements Exception {}

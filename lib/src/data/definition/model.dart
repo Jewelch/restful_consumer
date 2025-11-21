@@ -19,3 +19,6 @@ abstract class ModelingProtocol extends _Decodable {
   @override
   List<Object?> get props => [];
 }
+
+// Data Access Object
+mixin Model on ModelingProtocol {}

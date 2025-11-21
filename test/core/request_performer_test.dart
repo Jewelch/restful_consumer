@@ -7,8 +7,8 @@ import 'package:dio/dio.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:restful_consumer/src/core/errors/exceptions.dart';
 import 'package:restful_consumer/src/core/request_performer.dart';
-import 'package:restful_consumer/src/models/no_data_model.dart';
-import 'package:restful_consumer/src/protocol/modeling_protocol.dart';
+import 'package:restful_consumer/src/data/definition/model.dart';
+import 'package:restful_consumer/src/data/models/no_data_model.dart';
 import 'package:restful_consumer/src/utils/networking_utilities.dart';
 
 // Test model

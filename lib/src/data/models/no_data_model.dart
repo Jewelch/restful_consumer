@@ -1,4 +1,4 @@
-import '../protocol/modeling_protocol.dart';
+import '../definition/model.dart';
 
 final class NoDataModel extends ModelingProtocol {
   final bool success;

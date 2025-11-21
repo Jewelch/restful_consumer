@@ -2,9 +2,9 @@ import 'package:dio/dio.dart' hide ResponseDecoder;
 import 'package:flutter_test/flutter_test.dart';
 import 'package:restful_consumer/src/core/errors/exceptions.dart';
 import 'package:restful_consumer/src/core/response_decoder.dart';
-import 'package:restful_consumer/src/models/no_data_model.dart';
-import 'package:restful_consumer/src/models/paginated_response.dart';
-import 'package:restful_consumer/src/protocol/modeling_protocol.dart';
+import 'package:restful_consumer/src/data/definition/model.dart';
+import 'package:restful_consumer/src/data/models/no_data_model.dart';
+import 'package:restful_consumer/src/data/models/paginated_response.dart';
 
 // Test model
 class TestUser extends ModelingProtocol {

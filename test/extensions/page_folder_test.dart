@@ -1,8 +1,8 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:restful_consumer/src/core/errors/exceptions.dart';
+import 'package:restful_consumer/src/data/definition/model.dart';
+import 'package:restful_consumer/src/data/models/paginated_response.dart';
 import 'package:restful_consumer/src/extensions/external/page_folder.dart';
-import 'package:restful_consumer/src/models/paginated_response.dart';
-import 'package:restful_consumer/src/protocol/modeling_protocol.dart';
 import 'package:restful_consumer/src/utils/either.dart';
 
 // Test model for pagination
